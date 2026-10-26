@@ -1,0 +1,19 @@
+size,vertices,edges,algorithm,avg_time_ms,edge_checks,other_operations
+Small,10,30,Kruskal,0.032817,14,59
+Small,10,30,Prim,0.050524,30,60
+Small,10,30,Kosaraju SCC,0.048375,90,20
+Small,10,30,Topological DAG,0.047407,60,20
+Small,10,30,Topological Cycle,0.003823,30,0
+Small,10,30,Dijkstra,0.141791,60,36
+Medium,100,500,Kruskal,0.574986,164,739
+Medium,100,500,Prim,0.447800,500,1000
+Medium,100,500,Kosaraju SCC,0.263207,1500,200
+Medium,100,500,Topological DAG,0.169956,1000,200
+Medium,100,500,Topological Cycle,0.038230,505,2
+Medium,100,500,Dijkstra,0.358541,1000,400
+Large,1000,5000,Kruskal,3.148349,3392,16507
+Large,1000,5000,Prim,3.581257,5000,10000
+Large,1000,5000,Kosaraju SCC,1.543080,15000,2000
+Large,1000,5000,Topological DAG,0.974533,10000,2000
+Large,1000,5000,Topological Cycle,0.220703,5027,8
+Large,1000,5000,Dijkstra,1.901588,10000,3974
